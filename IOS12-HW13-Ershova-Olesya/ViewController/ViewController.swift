@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     // MARK: - UI
     
-    private var data = [
+    var data = [
         SectionData(cells: [
         .switchCell(
             withData: SwitchCellData(
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         .disclosureTextCell(
             withData: DisclosureTextCellData(
                 text: "Wi-Fi",
-                disclosureText: "Не подключено",
+                disclosureText: "Не подключеноd",
                 iconName: "wifi",
                 iconBackgroundColor: .link)),
         .disclosureTextCell(

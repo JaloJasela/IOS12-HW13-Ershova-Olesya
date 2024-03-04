@@ -52,7 +52,6 @@
 		88C795162B93E1560092D800 /* CellsData */ = {
 			isa = PBXGroup;
 			children = (
-				88C7951D2B93E2600092D800 /* Model */,
 				88C795172B93E16D0092D800 /* DefaultCellData.swift */,
 				88C795192B93E1AB0092D800 /* SwitchCellData.swift */,
 				88C7951B2B93E1D70092D800 /* DisclosureTextCellData.swift */,
@@ -64,8 +63,17 @@
 			isa = PBXGroup;
 			children = (
 				88C795202B93E5D20092D800 /* SectionData.swift */,
+				88C795162B93E1560092D800 /* CellsData */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		88CE97E72B96532300BE682D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F31B82212B8FE808007BA73E /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		F31B82112B8FE808007BA73E = {
@@ -90,6 +98,7 @@
 				F31B82312B8FEFB0007BA73E /* App */,
 				F31B82322B8FF01D007BA73E /* Sources */,
 				F31B82342B8FF451007BA73E /* Cells */,
+				88CE97E72B96532300BE682D /* ViewController */,
 				F31B82332B8FF029007BA73E /* Resources */,
 			);
 			path = "IOS12-HW13-Ershova-Olesya";
@@ -107,7 +116,7 @@
 		F31B82322B8FF01D007BA73E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F31B82212B8FE808007BA73E /* ViewController.swift */,
+				88C7951D2B93E2600092D800 /* Model */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -125,7 +134,6 @@
 		F31B82342B8FF451007BA73E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				88C795162B93E1560092D800 /* CellsData */,
 				F31B82352B8FF50A007BA73E /* DefaultTableViewCell.swift */,
 				F31B82372B8FF54D007BA73E /* SwitchTableViewCell.swift */,
 				88C795142B93D8F00092D800 /* DisclosureButtonTableViewCell.swift */,
